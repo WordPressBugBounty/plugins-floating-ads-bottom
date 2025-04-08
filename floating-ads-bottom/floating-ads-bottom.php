@@ -2,11 +2,11 @@
 /**
  *
  * Plugin Name:       Floating Ads Bottom
- * Plugin URI: 		  http://wp.labnul.com/plugin/floating-ads-bottom/
+ * Plugin URI: 		  https://wordpress.org/plugins/floating-ads-bottom/
  * Description:       Increase your adsense click using Floating Ads at the Bottom wordpress plugin. Show floating ad at the bottom of your visitor screen. Start <a href="options-general.php?page=floating-ads-bottom">Floating Ads Bottom's setting</a>.
- * Version:           1.0.3
+ * Version:           1.0.4
  * Author:            Aby Rafa
- * Author URI:        http://wp.labnul.com/
+ * Author URI:        https://profiles.wordpress.org/abyrafa/#content-plugins
  * Text Domain:       floating-ads-bottom
  * Domain Path		  /languages
  * License:           GPL-2.0+
@@ -40,9 +40,6 @@ function floating_ads_bottom_div() { ?>
 	<div id="floating_ads_bottom_textcss_wrap">
 		<div id="floating_ads_bottom_textcss_ad">
 			<?php echo get_option('floating_ads_bottom_script'); ?>
-		</div>
-		<div id="floating_ads_bottom_textcss_close">	
-			<a href="#" onclick="document.getElementById('floating_ads_bottom_textcss_container').style.display='none';return false;" id="floating_ads_bottom_textcss_x"><img border="none" src="<?php echo plugins_url("images/close.png", __FILE__); ?>" alt="x"></a>	
 		</div>
 	</div>
 </div>
@@ -102,7 +99,13 @@ function floating_ads_bottom_wrap() { ?>
 							<div class="inside">
 								<div class="rss-widget">
 									<div style="float:left; margin-right:25px;">
-										<p><img src="<?php echo plugins_url("images/home.jpg", __FILE__); ?>" /> <a href="http://wp.labnul.com/plugin/floating-ads-bottom/" target="_blank">Plugin Homepage</a></p>
+										<p><a href="https://wordpress.org/plugins/floating-ads-bottom/">Plugin Homepage</a></p>
+									</div>
+									<div style="clear:left;"></div>
+								</div>
+								<div class="rss-widget">
+									<div style="float:left; margin-right:25px;">
+										<p><a href="https://paypal.me/abyrafa?country.x=ID&locale.x=en_US">Paypal Donate</a></p>
 									</div>
 									<div style="clear:left;"></div>
 								</div>
