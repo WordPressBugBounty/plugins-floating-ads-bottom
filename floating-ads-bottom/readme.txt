@@ -4,7 +4,7 @@ Contributors: abyrafa
 Donate link: https://paypal.me/abyrafa?country.x=ID&locale.x=en_US
 Tags: adsense, ad, earn money, floating ad at the bottom, google adsense, floating ad
 Requires at least: 4.0.0
-Tested up to: 6.7.2
+Tested up to: 6.8
 
 Show floating adsense at the bottom of your visitor screen, increase CTR with The Floating Ads at the bottom Wordpress Plugin.
 
